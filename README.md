@@ -13,6 +13,7 @@ In Chord, each node maintains part of the distributed hash table. On condition t
 querying key is not maintained locally, the node needs to query the key from the Chord
 network. Likewise, the node is also able to insert/remove keys in corresponding node.
 Therefore, the following three functions are crucial too.
+
 2. find() 
 3. insert () 
 4. remove()
